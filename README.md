@@ -13,6 +13,6 @@ BlueTalk
 
 ### 效果图
 ![github](https://github.com/lihongli528628/BlueTalk/blob/master/效果图1.png "效果图1")
-![github](https://github.com/lihongli528628/BuleTalk/效果图2.png "效果图2")
+![github](https://github.com/lihongli528628/BuleTalk/blob/master/效果图2.png "效果图2")
 
 
