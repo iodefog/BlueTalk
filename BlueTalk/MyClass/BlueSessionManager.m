@@ -3,7 +3,7 @@
 //  BlueTalk
 //
 //  Created by user on 15-4-8.
-//  Copyright (c) 2015年 YangPeiQiu. All rights reserved.
+//  Copyright (c) 2015年 LHL. All rights reserved.
 //
 
 #import "BlueSessionManager.h"
@@ -58,7 +58,16 @@
     return [self initWithDisplayName:displayName securityIdentity:nil encryptionPreferences:MCEncryptionNone serviceType:ServiceType];
 }
 
-// 为上面自定义 用户
+/**
+ *  为上面自定义 用户
+ *
+ *  @param displayName 显示名称
+ *  @param security    安全标示
+ *  @param preference  加密偏好  0 可选的加密 1 需要加密 2 无加密
+ *  @param type        服务类型
+ *
+ *  @return 生成一个对话管理者
+ */
 - (instancetype)initWithDisplayName:(NSString *)displayName securityIdentity:(NSArray *)security encryptionPreferences:(MCEncryptionPreference)preference serviceType:(NSString *)type
 {
     self = [super init];
@@ -73,11 +82,19 @@
 }
 
 #pragma mark 宣传自己
+/**
+ *  通知扫描设备
+ */
 - (void)advertiseForBrowserViewController
 {
     [self advertiseForBrowserViewControllerWithDiscoveryInfo:nil];
 }
 
+/**
+ *  通知扫描设备
+ *
+ *  @param info 消息
+ */
 - (void)advertiseForBrowserViewControllerWithDiscoveryInfo:(NSDictionary *)info
 {
     //
@@ -86,11 +103,19 @@
     [self.advertiser startAdvertisingPeer];
 }
 
+/**
+ *  打开天线，广播
+ */
 - (void)advertiseForProgrammaticDiscovery
 {
     [self advertiseForProgrammaticDiscoveryWithDiscoveryInfo:nil];
 }
 
+/**
+ *  打开天线，广播消息
+ *
+ *  @param info 消息
+ */
 - (void)advertiseForProgrammaticDiscoveryWithDiscoveryInfo:(NSDictionary *)info
 {
     //自定义自己，为了让其他设备搜索到自己
@@ -105,13 +130,25 @@
 }
 
 #pragma mark 下面是MCAdvertiserAssistant的两个代理
+/**
+ *  有搜索 不连接
+ *
+ *  @param advertiserAssistant
+ */
 - (void)advertiserAssistantDidDismissInvitation:(MCAdvertiserAssistant *)advertiserAssistant
 {
     //TODO implement
+    NSLog(@"DidDismiss");
 }
 
+/**
+ *  有搜索将要被要求
+ *
+ *  @param advertiserAssistant <#advertiserAssistant description#>
+ */
 - (void)advertiserAssitantWillPresentInvitation:(MCAdvertiserAssistant *)advertiserAssistant {
     //TODO implement
+    NSLog(@"WillPresent");
 }
 
 #pragma mark  扫描其他的设备
