@@ -9,11 +9,20 @@
 /* Begin PBXBuildFile section */
 		CE8F9A531AD4DA1C00A35024 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F9A521AD4DA1C00A35024 /* main.m */; };
 		CE8F9A561AD4DA1C00A35024 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F9A551AD4DA1C00A35024 /* AppDelegate.m */; };
-		CE8F9A591AD4DA1C00A35024 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F9A581AD4DA1C00A35024 /* ViewController.m */; };
-		CE8F9A5C1AD4DA1D00A35024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8F9A5A1AD4DA1D00A35024 /* Main.storyboard */; };
 		CE8F9A5E1AD4DA1D00A35024 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8F9A5D1AD4DA1D00A35024 /* Images.xcassets */; };
-		CE8F9A611AD4DA1D00A35024 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8F9A5F1AD4DA1D00A35024 /* LaunchScreen.xib */; };
 		CE8F9A6D1AD4DA1D00A35024 /* BlueTalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F9A6C1AD4DA1D00A35024 /* BlueTalkTests.m */; };
+		CE8F9A781AD4DADB00A35024 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F9A771AD4DADB00A35024 /* RootViewController.m */; };
+		CE8F9A7F1AD5000000A35024 /* BlueSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F9A7E1AD5000000A35024 /* BlueSessionManager.m */; };
+		CE91CF271AD517FE0047063A /* 301-alien-ship@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91CF261AD517FE0047063A /* 301-alien-ship@2x.png */; };
+		CE91CF2C1AD570170047063A /* ChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91CF2B1AD570170047063A /* ChatCell.m */; };
+		CE91CF2F1AD570330047063A /* ChatItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91CF2E1AD570330047063A /* ChatItem.m */; };
+		CE91CF331AD570740047063A /* ReceiverTextNodeBkg.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91CF311AD570740047063A /* ReceiverTextNodeBkg.png */; };
+		CE91CF341AD570740047063A /* ReceiverTextNodeBkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91CF321AD570740047063A /* ReceiverTextNodeBkg@2x.png */; };
+		CE91CF371AD5709C0047063A /* SenderTextNodeBkg.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91CF351AD5709B0047063A /* SenderTextNodeBkg.png */; };
+		CE91CF381AD5709C0047063A /* SenderTextNodeBkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91CF361AD5709C0047063A /* SenderTextNodeBkg@2x.png */; };
+		CE91CF3B1AD570BA0047063A /* f-pCert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91CF391AD570BA0047063A /* f-pCert@2x.png */; };
+		CE91CF3C1AD570BA0047063A /* f-plove@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91CF3A1AD570BA0047063A /* f-plove@2x.png */; };
+		CE91CF411ADB73C50047063A /* record@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE91CF401ADB73C50047063A /* record@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +41,26 @@
 		CE8F9A521AD4DA1C00A35024 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE8F9A541AD4DA1C00A35024 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE8F9A551AD4DA1C00A35024 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CE8F9A571AD4DA1C00A35024 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE8F9A581AD4DA1C00A35024 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CE8F9A5B1AD4DA1D00A35024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE8F9A5D1AD4DA1D00A35024 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		CE8F9A601AD4DA1D00A35024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CE8F9A661AD4DA1D00A35024 /* BlueTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8F9A6B1AD4DA1D00A35024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE8F9A6C1AD4DA1D00A35024 /* BlueTalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueTalkTests.m; sourceTree = "<group>"; };
+		CE8F9A761AD4DADB00A35024 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		CE8F9A771AD4DADB00A35024 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		CE8F9A7D1AD5000000A35024 /* BlueSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueSessionManager.h; sourceTree = "<group>"; };
+		CE8F9A7E1AD5000000A35024 /* BlueSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueSessionManager.m; sourceTree = "<group>"; };
+		CE91CF261AD517FE0047063A /* 301-alien-ship@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "301-alien-ship@2x.png"; path = "../301-alien-ship@2x.png"; sourceTree = "<group>"; };
+		CE91CF2A1AD570170047063A /* ChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatCell.h; sourceTree = "<group>"; };
+		CE91CF2B1AD570170047063A /* ChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatCell.m; sourceTree = "<group>"; };
+		CE91CF2D1AD570330047063A /* ChatItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatItem.h; sourceTree = "<group>"; };
+		CE91CF2E1AD570330047063A /* ChatItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatItem.m; sourceTree = "<group>"; };
+		CE91CF311AD570740047063A /* ReceiverTextNodeBkg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReceiverTextNodeBkg.png; sourceTree = "<group>"; };
+		CE91CF321AD570740047063A /* ReceiverTextNodeBkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReceiverTextNodeBkg@2x.png"; sourceTree = "<group>"; };
+		CE91CF351AD5709B0047063A /* SenderTextNodeBkg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SenderTextNodeBkg.png; sourceTree = "<group>"; };
+		CE91CF361AD5709C0047063A /* SenderTextNodeBkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderTextNodeBkg@2x.png"; sourceTree = "<group>"; };
+		CE91CF391AD570BA0047063A /* f-pCert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "f-pCert@2x.png"; sourceTree = "<group>"; };
+		CE91CF3A1AD570BA0047063A /* f-plove@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "f-plove@2x.png"; sourceTree = "<group>"; };
+		CE91CF401ADB73C50047063A /* record@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "record@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +104,12 @@
 			children = (
 				CE8F9A541AD4DA1C00A35024 /* AppDelegate.h */,
 				CE8F9A551AD4DA1C00A35024 /* AppDelegate.m */,
-				CE8F9A571AD4DA1C00A35024 /* ViewController.h */,
-				CE8F9A581AD4DA1C00A35024 /* ViewController.m */,
-				CE8F9A5A1AD4DA1D00A35024 /* Main.storyboard */,
+				CE8F9A761AD4DADB00A35024 /* RootViewController.h */,
+				CE8F9A771AD4DADB00A35024 /* RootViewController.m */,
+				CE91CF291AD56FF50047063A /* Model */,
+				CE91CF281AD56FDC0047063A /* View */,
+				CE8F9A791AD4FF3000A35024 /* MyClass */,
 				CE8F9A5D1AD4DA1D00A35024 /* Images.xcassets */,
-				CE8F9A5F1AD4DA1D00A35024 /* LaunchScreen.xib */,
 				CE8F9A501AD4DA1C00A35024 /* Supporting Files */,
 			);
 			path = BlueTalk;
@@ -96,6 +118,7 @@
 		CE8F9A501AD4DA1C00A35024 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CE91CF301AD5704E0047063A /* Resourse */,
 				CE8F9A511AD4DA1C00A35024 /* Info.plist */,
 				CE8F9A521AD4DA1C00A35024 /* main.m */,
 			);
@@ -117,6 +140,48 @@
 				CE8F9A6B1AD4DA1D00A35024 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE8F9A791AD4FF3000A35024 /* MyClass */ = {
+			isa = PBXGroup;
+			children = (
+				CE8F9A7D1AD5000000A35024 /* BlueSessionManager.h */,
+				CE8F9A7E1AD5000000A35024 /* BlueSessionManager.m */,
+			);
+			path = MyClass;
+			sourceTree = "<group>";
+		};
+		CE91CF281AD56FDC0047063A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE91CF2A1AD570170047063A /* ChatCell.h */,
+				CE91CF2B1AD570170047063A /* ChatCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE91CF291AD56FF50047063A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE91CF2D1AD570330047063A /* ChatItem.h */,
+				CE91CF2E1AD570330047063A /* ChatItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE91CF301AD5704E0047063A /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+				CE91CF401ADB73C50047063A /* record@2x.png */,
+				CE91CF391AD570BA0047063A /* f-pCert@2x.png */,
+				CE91CF3A1AD570BA0047063A /* f-plove@2x.png */,
+				CE91CF311AD570740047063A /* ReceiverTextNodeBkg.png */,
+				CE91CF321AD570740047063A /* ReceiverTextNodeBkg@2x.png */,
+				CE91CF351AD5709B0047063A /* SenderTextNodeBkg.png */,
+				CE91CF361AD5709C0047063A /* SenderTextNodeBkg@2x.png */,
+				CE91CF261AD517FE0047063A /* 301-alien-ship@2x.png */,
+			);
+			path = Resourse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +264,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8F9A5C1AD4DA1D00A35024 /* Main.storyboard in Resources */,
-				CE8F9A611AD4DA1D00A35024 /* LaunchScreen.xib in Resources */,
+				CE91CF3B1AD570BA0047063A /* f-pCert@2x.png in Resources */,
+				CE91CF411ADB73C50047063A /* record@2x.png in Resources */,
+				CE91CF3C1AD570BA0047063A /* f-plove@2x.png in Resources */,
 				CE8F9A5E1AD4DA1D00A35024 /* Images.xcassets in Resources */,
+				CE91CF331AD570740047063A /* ReceiverTextNodeBkg.png in Resources */,
+				CE91CF371AD5709C0047063A /* SenderTextNodeBkg.png in Resources */,
+				CE91CF381AD5709C0047063A /* SenderTextNodeBkg@2x.png in Resources */,
+				CE91CF271AD517FE0047063A /* 301-alien-ship@2x.png in Resources */,
+				CE91CF341AD570740047063A /* ReceiverTextNodeBkg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8F9A591AD4DA1C00A35024 /* ViewController.m in Sources */,
 				CE8F9A561AD4DA1C00A35024 /* AppDelegate.m in Sources */,
+				CE8F9A7F1AD5000000A35024 /* BlueSessionManager.m in Sources */,
 				CE8F9A531AD4DA1C00A35024 /* main.m in Sources */,
+				CE91CF2C1AD570170047063A /* ChatCell.m in Sources */,
+				CE91CF2F1AD570330047063A /* ChatItem.m in Sources */,
+				CE8F9A781AD4DADB00A35024 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +316,6 @@
 			targetProxy = CE8F9A671AD4DA1D00A35024 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		CE8F9A5A1AD4DA1D00A35024 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE8F9A5B1AD4DA1D00A35024 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CE8F9A5F1AD4DA1D00A35024 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE8F9A601AD4DA1D00A35024 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CE8F9A6E1AD4DA1D00A35024 /* Debug */ = {
@@ -343,7 +398,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				INFOPLIST_FILE = BlueTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +410,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				INFOPLIST_FILE = BlueTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +471,7 @@
 				CE8F9A721AD4DA1D00A35024 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE8F9A731AD4DA1D00A35024 /* Build configuration list for PBXNativeTarget "BlueTalkTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +480,7 @@
 				CE8F9A751AD4DA1D00A35024 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
