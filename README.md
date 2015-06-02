@@ -14,7 +14,7 @@ BlueTalk
     经过小编的测试，两台设备既可以在同一WIFI下连接，也可以通过蓝牙来连接。在同一WIFI下的传输会比较快，蓝牙下传输图片时可能会比较慢或由小问题，但是还是可以文字和语音通讯。总的来说基本通讯功能是能够实现。有兴趣的同学请来参考参考。 
 
 ### 效果图
-![github](https://github.com/效果图1.png "github")
-![github](https://github.com/效果图2.png "github")
+![github](https://github.com/效果图1.png"效果图1")
+![github](https://github.com/效果图2.png"效果图2")
 
 
